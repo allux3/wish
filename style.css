@@ -1,0 +1,88 @@
+html{
+    margin:0 auto;
+    /*background-image: linear-gradient(to left, #b0e0e6, #c88ae3);*/
+    scroll-behavior: smooth;
+    background: linear-gradient(95deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 200% 200%;
+	animation: gradientBG 13s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.wrapper-div{
+    padding: 20px;
+    height: 100%;
+   
+}
+.wish-header{
+    font-family: 'Asset', cursive;
+    text-align: center;
+    font-size: 6vh;
+    margin: 0 auto;
+    /*color: -webkit-linear-gradient(#FFD700, #f7347a);*/
+    /*background: linear-gradient(to right, #edd815 10%, #f7347a 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;*/
+    color: -webkit-linear-gradient(#FFD700, #fcdf03);
+    background: linear-gradient(to right, #edd815 10%, #FFD700 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.status{
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /*padding: 100px;*/
+    padding-top: 140px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right:40px;
+}
+.scroll-box {
+    border: 1px solid whitesmoke;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2vh;
+    color: white;
+    line-height: 1.3;
+    display: block;
+    height: 400px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-align: center;
+    width: 100%;
+   
+    
+    
+}
+
+.bottom{
+    height:40%;
+    width:100%;
+    display: block;
+    align-content: right;
+    bottom: 0;
+}
+.lower-icon{
+    top:0;
+}
